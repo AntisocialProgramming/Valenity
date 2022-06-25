@@ -1,4 +1,4 @@
-# Valenity [![Github All Releases](https://img.shields.io/github/downloads/AntisocialProgramming/Valenity/total.svg)]()
+# Valenity 
 > Multi-Purpose Program
 
 ### Current Features:
