@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Valenity.Controls;
+using Valenity.Forms;
 
 namespace ValenityDashboard
 {
     public partial class Dashboard : Form
     {
+        Guna.UI2.WinForms.Guna2MessageDialog n = new Guna.UI2.WinForms.Guna2MessageDialog();
         public Dashboard()
         {
             InitializeComponent();
@@ -67,6 +69,20 @@ namespace ValenityDashboard
         {
             guna2Panel3.Controls.Clear();
             guna2Panel3.Controls.Add(new Scrambler());
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            n.Text = "Would you like to open the Borderlands 2 Trainer?";
+            n.Caption = "Valenity";
+            n.Icon = Guna.UI2.WinForms.MessageDialogIcon.Question;
+            n.Buttons = Guna.UI2.WinForms.MessageDialogButtons.YesNo;
+            // ask user if they want to go to the borderlands trainer
+            if (n.Show() == DialogResult.Yes)
+            {
+                Borderlands2 c = new Borderlands2();
+                c.Show();
+            }
         }
     }
 }
