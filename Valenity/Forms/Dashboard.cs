@@ -45,11 +45,11 @@ namespace ValenityDashboard
         {
             if (DateTime.UtcNow.ToString("tt") == "AM")
             {
-                label2.Text = DateTime.Now.ToString("HH:mm:ss") + " PM";
+                label2.Text = DateTime.Now.ToString("hh:mm:ss") + " PM";
             }
             else
             {
-                label2.Text = DateTime.Now.ToString("HH:mm:ss") + " AM";
+                label2.Text = DateTime.Now.ToString("hh:mm:ss") + " AM";
             }
         }
 

@@ -124,7 +124,6 @@ namespace Valenity.Controls
             if (int.Parse(Confirmed.Text) > 50 )
             {
                 label10.Visible = true;
-                _ = int.Parse(Confirmed.Text) - 50;
                 AddTarget.Text = "Bought!";
                 AddTarget.Checked = true;
                 AddTarget.FillColor = Color.Green;
@@ -173,7 +172,6 @@ namespace Valenity.Controls
         {
             if (DoubleHit.Checked)
             {
-                Possible.Text = Confirmed.Text;
                 DoubleHit.Text = "Already Bought!";
                 DoubleHit.FillColor = Color.DarkGreen;
                 await Task.Delay(3000);
@@ -183,7 +181,6 @@ namespace Valenity.Controls
             else
             if (int.Parse(Confirmed.Text) >= 100)
             {
-                Confirmed.Text = (int.Parse(Confirmed.Text) - 100).ToString();
                 DoubleHit.Checked = true;
                 DoubleHit.Text = "Bought!";
                 DoubleHit.FillColor = Color.Green;
