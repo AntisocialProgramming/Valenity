@@ -5,3 +5,4 @@
 * Notepad
 * Simple Aim Trainer
 * Text Scrambler/Unscrambler
+* Borderlands 2 Trainer
