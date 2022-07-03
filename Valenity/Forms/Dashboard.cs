@@ -84,5 +84,19 @@ namespace ValenityDashboard
                 c.Show();
             }
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            n.Text = "Would you like to open the Bully Trainer?";
+            n.Caption = "Valenity";
+            n.Icon = Guna.UI2.WinForms.MessageDialogIcon.Question;
+            n.Buttons = Guna.UI2.WinForms.MessageDialogButtons.YesNo;
+            // ask user if they want to go to the borderlands trainer
+            if (n.Show() == DialogResult.Yes)
+            {
+                Bully c = new Bully();
+                c.Show();
+            }
+        }
     }
 }
