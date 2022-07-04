@@ -528,5 +528,145 @@ namespace Valenity.Forms
                 guna2Button9.Text = "Please Connect!";
             }
         }
+
+        private void guna2Button34_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC2319200, Convert.ToUInt32(MainGreeting.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button35_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC231907C, Convert.ToUInt32(guna2NumericUpDown1.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button36_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC2319080, Convert.ToUInt32(guna2NumericUpDown2.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button37_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC2319084, Convert.ToUInt32(guna2NumericUpDown3.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button38_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC2319088, Convert.ToUInt32(guna2NumericUpDown4.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button40_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC231908C, Convert.ToUInt32(guna2NumericUpDown6.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button39_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC2319090, Convert.ToUInt32(guna2NumericUpDown5.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button41_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC2319204, Convert.ToUInt32(guna2NumericUpDown7.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button42_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC2319208, Convert.ToUInt32(guna2NumericUpDown8.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
+
+        private void guna2Button43_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Anti.WriteUInt32(0xC2319210, Convert.ToUInt32(guna2NumericUpDown9.Value));
+            }
+            catch (Exception ex)
+            {
+                msg.Show();
+                guna2Button9.BorderColor = Color.Red;
+                guna2Button9.Text = "Please Connect!";
+            }
+        }
     }
 }
