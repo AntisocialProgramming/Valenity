@@ -1,9 +1,6 @@
-# Valenity 
-> Multi-Purpose Program
+# Valenity
 
-### Current Features:
-* Notepad
-* Simple Aim Trainer
-* Text Scrambler/Unscrambler
-* Borderlands 2 Trainer (PC)
-* Bully Trainer (XB360)
+> A ton of random useful and somewhat wacky utilities and programs!
+
+## Looking for work!
+> I'm currently looking for work, you can reach me at Valenity#4107 or my twitter, @WhoIsValenity
